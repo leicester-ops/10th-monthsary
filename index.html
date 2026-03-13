@@ -2,12 +2,13 @@
 <html>
 
 <head>
-<title>Happy 10th Monthsary ❤️</title>
+
+<title>Happy Monthsary</title>
 
 <style>
 
 body{
-background:#f7d9e3;
+background:#ffdce5;
 text-align:center;
 font-family:Arial;
 margin-top:120px;
@@ -15,7 +16,7 @@ margin-top:120px;
 
 .heart{
 font-size:80px;
-animation: beat 1s infinite;
+animation:beat 1s infinite;
 }
 
 @keyframes beat{
@@ -35,6 +36,69 @@ border-radius:10px;
 button{
 padding:10px 20px;
 font-size:18px;
+background:#ff5c8a;
+color:white;
+border:none;
+border-radius:8px;
+margin:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Happy Monthsary ❤️</h2>
+
+<div class="heart">❤️</div>
+
+<br><br>
+
+<button onclick="openLetter()">Open Envelope</button>
+
+<div id="letter">
+
+<p>
+Happy monthsary my love. Every moment with you is something
+I truly treasure.
+</p>
+
+<p>
+Thank you for always being there for me and loving me
+through everything.
+</p>
+
+<p>
+I hope we continue building more memories together
+in the months and years ahead.
+</p>
+
+<p>
+Happy monthsary again. I love you so much ❤️
+</p>
+
+<br>
+
+<button onclick="closeLetter()">Close Envelope</button>
+
+</div>
+
+<script>
+
+function openLetter(){
+document.getElementById("letter").style.display="block";
+}
+
+function closeLetter(){
+document.getElementById("letter").style.display="none";
+}
+
+</script>
+
+</body>
+
+</html>font-size:18px;
 background:#ff5c8a;
 color:white;
 border:none;
